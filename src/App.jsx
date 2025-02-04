@@ -1,13 +1,25 @@
 import './App.css'
+import Die from './components/Die'
 
-function App() {
+export default function App() {
 
   return (
-    <>
-    <h1>App Component</h1>
-     
-    </>
+    <main>
+
+    <div className="dice-container">
+
+    
+    <Die value={1}/>
+    <Die value={1}/>
+    <Die value={1}/>
+    <Die value={1}/>
+    <Die value={1}/>
+    <Die value={1}/>
+    <Die value={1}/>
+    <Die value={1}/>
+    <Die value={1}/>
+    <Die value={1}/>
+    </div>
+    </main>
   )
 }
-
-export default App
