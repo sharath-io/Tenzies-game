@@ -1,9 +1,9 @@
 
-export default function Die({value}) {
+export default function Die(props) {
 
   return (
     <main>
-      <button>{value}</button>
+      <button style={{backgroundColor:props.isHeld? "#59E391" : ""}}>{props.value}</button>
     </main>
   )
 }
